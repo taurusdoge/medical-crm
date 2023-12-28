@@ -1,0 +1,38 @@
+html {
+  color: #fff;
+  background: #2b3248;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 90rem;
+}
+
+main {
+  display: flex;
+}
+
+.main-view {
+  width: 100%;
+  background: #2b3248;
+  padding: 1rem 1.5rem;
+}
+
+.main-view__header,
+.main-view__subheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

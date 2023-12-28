@@ -1,0 +1,35 @@
+.search {
+  width: 17.5rem;
+  position: relative;
+}
+
+.search__input {
+  width: 100%;
+  background: #1f2538;
+  border: none;
+  height: 2rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  padding: 0 2rem;
+}
+
+.search__input::placeholder,
+.search .icon-search,
+.search .icon-menu {
+  color: #fff;
+  opacity: 0.65;
+}
+
+.search .icon-search {
+  position: absolute;
+  top: 0.6rem;
+  left: 0.7rem;
+  color: #fff;
+  opacity: 0.65;
+}
+
+.search .icon-menu {
+  position: absolute;
+  right: 0.6rem;
+  top: 1rem;
+}
