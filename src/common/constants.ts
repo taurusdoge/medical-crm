@@ -2,7 +2,8 @@ import { faker } from "@faker-js/faker";
 import { User } from "../modules/Header/types";
 import { Employee, Pharmacy } from "../modules/Content/types";
 
-faker.seed(123);
+// for keeping the values
+// faker.seed(123);
 
 export const CurrentUser: User = {
   id: faker.string.uuid(),

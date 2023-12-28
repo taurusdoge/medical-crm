@@ -25,6 +25,8 @@ body {
 
 main {
   display: flex;
+  background-color: #2b3248;
+  margin-top: 0.125rem;
 }
 
 .label-dim {

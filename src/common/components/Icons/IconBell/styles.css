@@ -43,3 +43,19 @@
   border-bottom-left-radius: 6.25rem;
   border-bottom-right-radius: 6.25rem;
 }
+
+.icon-bell__unread-counter {
+  position: absolute;
+  bottom: 0.25rem;
+  left: 0.25rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 0.125rem solid #fff;
+  background: #f53f3f;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

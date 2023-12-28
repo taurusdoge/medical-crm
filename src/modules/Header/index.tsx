@@ -14,7 +14,7 @@ export const Header = () => {
         <Search />
         <section className="header__account">
           <button className="button-icon">
-            <IconBell />
+            <IconBell unread count={2} />
           </button>
           <div className="separator">|</div>
           <button className="account-menu-button button-icon">
