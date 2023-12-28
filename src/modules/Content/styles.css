@@ -18,3 +18,14 @@
   font-size: 1.75rem;
   font-weight: 400;
 }
+
+.main-view__subheader__display-options {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-right: 0.4rem;
+}
+
+.main-view__display-option {
+  color: #fff;
+}

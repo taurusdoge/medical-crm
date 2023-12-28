@@ -18,8 +18,41 @@ header h1 {
   width: 100%;
   align-items: center;
   justify-content: space-between;
+  margin-right: 1rem;
 }
 
 .header__actions .search {
   margin-left: 1rem;
+}
+
+.header__account {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.header__actions .account-menu-button {
+  height: 100%;
+  width: 11rem;
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__avatar {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.header__username {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.header .separator {
+  opacity: 0.65;
 }

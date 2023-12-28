@@ -61,11 +61,13 @@
 .pharmacy-card__reports {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .pharmacy-card__employee {
   display: flex;
+  gap: 0.25rem;
+  align-items: center;
 }
 
 .pharmacy-card__employee-label,
@@ -86,4 +88,7 @@
   font-weight: 700;
   font-size: 1.5rem;
   text-align: right;
+}
+
+.pharmacy-card__extra-employees {
 }

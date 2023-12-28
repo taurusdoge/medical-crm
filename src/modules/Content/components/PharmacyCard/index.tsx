@@ -6,6 +6,7 @@ export const PharmacyCard = ({
   name,
   location,
   employees,
+  extraEmployees,
   reports,
 }: Pharmacy) => {
   return (
@@ -29,15 +30,20 @@ export const PharmacyCard = ({
         <div className="pharmacy-card__employees">
           <h5 className="pharmacy-card__employee-label label-dim">Employees</h5>
           <div className="pharmacy-card__employee">
-            {employees?.length > 0 &&
-              employees.map((e) => (
-                <img
-                  key={e.id}
-                  src={e.imageUrl}
-                  alt="employee profile picture"
-                  className="pharmacy-card__employees-avatar"
-                />
-              ))}
+            <span>
+              {employees?.length > 0 &&
+                employees.map((e) => (
+                  <img
+                    key={e.id}
+                    src={e.imageUrl}
+                    alt="employee profile picture"
+                    className="pharmacy-card__employees-avatar"
+                  />
+                ))}
+            </span>
+            <span className="pharmacy-card__extra-employees">
+              +{extraEmployees}
+            </span>
           </div>
         </div>
         <div className="pharmacy-card__reports">

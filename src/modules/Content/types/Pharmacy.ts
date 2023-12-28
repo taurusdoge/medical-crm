@@ -5,5 +5,6 @@ export type Pharmacy = {
   name: string;
   location: string;
   employees: Employee[];
+  extraEmployees: number;
   reports: number;
 };
