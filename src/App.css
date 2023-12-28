@@ -10,7 +10,8 @@ h2,
 h3,
 h4,
 h5,
-input {
+input,
+p {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -18,21 +19,9 @@ input {
 
 body {
   max-width: 90rem;
+  margin: 0 auto;
 }
 
 main {
   display: flex;
-}
-
-.main-view {
-  width: 100%;
-  background: #2b3248;
-  padding: 1rem 1.5rem;
-}
-
-.main-view__header,
-.main-view__subheader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }

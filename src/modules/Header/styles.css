@@ -10,7 +10,7 @@ header {
 header h1 {
   font-size: 1.5rem;
   width: 14.7rem;
-  text-align: center;
+  padding-left: 1.5rem;
 }
 
 .header__actions {
@@ -18,4 +18,8 @@ header h1 {
   width: 100%;
   align-items: center;
   justify-content: space-between;
+}
+
+.header__actions .search {
+  margin-left: 1rem;
 }

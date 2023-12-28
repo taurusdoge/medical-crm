@@ -23,15 +23,11 @@ export const PharmacyCard = ({
             {getShortName(location, 20)}
           </div>
         </div>
-        <div className="pharmacy-card__actions">
-          <button>
-            <i className="pharmacy-card__icon-settings">...</i>
-          </button>
-        </div>
+        <span className="pharmacy-card__settings">...</span>
       </div>
       <div className="pharmacy-card__row pharmacy-card__body">
         <div className="pharmacy-card__employees">
-          <h5 className="label-dim">Employees</h5>
+          <h5 className="pharmacy-card__employee-label label-dim">Employees</h5>
           <div className="pharmacy-card__employee">
             {employees?.length > 0 &&
               employees.map((e) => (
@@ -39,14 +35,14 @@ export const PharmacyCard = ({
                   key={e.id}
                   src={e.imageUrl}
                   alt="employee profile picture"
-                  className="pharmacy-card__employees_avatar"
+                  className="pharmacy-card__employees-avatar"
                 />
               ))}
           </div>
         </div>
         <div className="pharmacy-card__reports">
-          <h5>Reports</h5>
-          <span>{reports || 0}</span>
+          <h5 className="pharmacy-card__reports-label">Reports</h5>
+          <div className="pharmacy-card__reports-number">{reports || 0}</div>
         </div>
       </div>
     </li>
